@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 — 대동남지도</title>
+<style>
+  body { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; font: 17px/1.6 -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; color: #2b2b2b; background: #f3e9d2; }
+  h1 { font-size: 26px; } h2 { font-size: 20px; margin-top: 32px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; } th, td { border: 1px solid #c9bda0; padding: 8px; text-align: left; vertical-align: top; }
+  th { background: #ede1c4; } a { color: #3b5b92; } code { background: #ede1c4; padding: 0 4px; }
+</style>
+</head>
+<body>
+<h1>개인정보처리방침 — 대동남지도</h1>
+<p>시행일: 2026-10-18</p>
+<p><strong>SdongWorks</strong>(이하 "개발자")는 "대동남지도" 앱(이하 "앱")과 관련하여 다음과 같이 개인정보를 처리합니다.</p>
+
+<h2>1. 앱이 수집하는 정보</h2>
+<p>앱에는 로그인·회원가입이 없습니다. 랭킹과 점수 검수를 위해 앱이 아래 정보를 만들어 개발자의 서버에 보냅니다. 이름·이메일·전화번호·위치 같은 개인 식별 정보는 받지 않습니다.</p>
+<table>
+<tr><th>정보</th><th>내용</th><th>목적</th></tr>
+<tr><td>익명 플레이어 ID</td><td>서버가 만든 무작위 ID와 인증 토큰(서버에는 토큰의 해시만 저장)</td><td>내 기록을 구분하기 위해</td></tr>
+<tr><td>앱 식별자</td><td>앱이 처음 실행될 때 만든 무작위 값. 기기의 하드웨어 ID나 광고 ID가 아닙니다</td><td>중복 가입 확인</td></tr>
+<tr><td>닉네임</td><td>서버가 "〈고을〉 나그네 〈번호〉" 형식으로 지어 줍니다. 사용자가 입력하지 않습니다</td><td>랭킹 표시</td></tr>
+<tr><td>게임 기록</td><td>시작 고을, 출발 기록(언제 어느 산으로 출발했는지), 서버가 다시 계산한 게임 상태(채운 칸·깃발·점수)</td><td>점수 검수와 랭킹</td></tr>
+</table>
+<p>칸·깃발·레벨·알림 설정 같은 나머지 진행 상황은 기기 안에만 저장됩니다.</p>
+
+<h2>2. 보관과 위탁</h2>
+<ul>
+<li>서버는 Cloudflare, Inc.(미국)의 Workers·D1 서비스(아시아·태평양 리전)를 사용합니다. 개발자는 Cloudflare에 저장·처리를 위탁하며, Cloudflare는 이 데이터를 자체 목적으로 사용하지 않습니다.</li>
+<li>전송은 HTTPS로 암호화됩니다.</li>
+<li>기록은 사용자가 삭제하거나 삭제를 요청할 때까지 보관합니다. 서비스를 종료하면 전부 삭제합니다.</li>
+</ul>
+
+<h2 id="delete">3. 삭제</h2>
+<ul>
+<li><strong>앱 안에서</strong>: 설정 → "내 기록 지우기". 기기의 기록과 서버의 플레이어 ID·닉네임·게임 기록이 즉시 삭제됩니다.</li>
+<li><strong>이메일로</strong>: 앱을 지운 뒤라면 <a href="mailto:sdongworks@gmail.com">sdongworks@gmail.com</a> 으로 요청해 주세요. 앱 설정 화면에 보이는 닉네임을 알려 주시면 찾아서 삭제합니다(확인 뒤 7일 안에 처리).</li>
+<li>앱만 삭제하면 기기의 기록은 지워지지만 서버의 익명 기록은 남습니다. 위 두 방법 중 하나로 지워 주세요.</li>
+</ul>
+
+<h2>4. 제3자 SDK</h2>
+<p>광고·분석·크래시 보고 SDK를 쓰지 않습니다. 앱에 광고가 없습니다.</p>
+
+<h2>5. 알림</h2>
+<p>도착·라이벌 알림은 전부 기기가 예약하는 로컬 알림입니다. 서버 푸시는 없습니다. 설정에서 끌 수 있습니다.</p>
+
+<h2>6. 아동의 개인정보</h2>
+<p>이 앱은 만 13세 이상을 대상으로 하며, 아동을 대상으로 개인정보를 수집하지 않습니다.</p>
+
+<h2>7. 데이터 출처</h2>
+<p>봉우리 이름·위치·높이는 © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap 기여자</a>(ODbL), 행정구역 경계는 통계청 SGIS / <a href="https://github.com/vuski/admdongkor">vuski·admdongkor</a>(CC BY 4.0)입니다. 이는 공개 지리 데이터이며 사용자 정보와 무관합니다.</p>
+
+<h2>8. 문의</h2>
+<p>개인정보 관련 문의: <a href="mailto:sdongworks@gmail.com">sdongworks@gmail.com</a></p>
+
+<h2>9. 변경</h2>
+<p>이 방침이 바뀌면 앱 업데이트 설명과 이 페이지에 고지합니다.</p>
+</body>
+</html>
